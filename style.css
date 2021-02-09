@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_box,.img1,.img2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.main_box{
+    overflow: hidden;
+}
+
+.img1{
+    background-image: url(./img1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img2{
+    background-image: url(./img2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    left: 50%;
+    background-attachment: fixed;
+    border-top: solid red 5px;
+    border-left: solid red 5px;
+}
