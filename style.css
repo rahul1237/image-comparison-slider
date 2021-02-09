@@ -1,9 +1,24 @@
+/* restoring all of the browser effects */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
+/* same effects to the body */
+body{
+    background-color: #000;
+    color: #fff;
+}
+
+/* positioning of heading */
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+/* positions of main div and 2 images */
 .main_box,.img1,.img2{
     position: absolute;
     top: 0;
@@ -13,7 +28,9 @@
 }
 
 .main_box{
-    overflow: hidden;
+    
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 .img1{
